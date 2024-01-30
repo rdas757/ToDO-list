@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Todo Container Styles */
+  .todo-container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    width: 400px;
+  }
+  
+  /* Header Styles */
+  .todo-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  /* Input Container Styles */
+  .input-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  /* Todo Input Styles */
+  .todo-input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  /* Add Todo Button Styles */
+  .todo-button {
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Todo List Styles */
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Todo Item Styles */
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .todo-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Completed Todo Item Styles */
+  .todo-item.completed {
+    background-color: #f0f0f0;
+    text-decoration: line-through;
+  }
+  
+  /* Todo Checkbox Styles */
+  .todo-item input[type="checkbox"] {
+    margin-right: 12px;
+  }
+  
+  /* Todo Text Styles */
+  .todo-text {
+    flex: 1;
+    color: #333333;
+  }
+  
+  /* Remove Button Styles */
+  .remove-button {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .remove-button:hover {
+    background-color: #c0392b;
+  }
+  
